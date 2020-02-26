@@ -31,5 +31,10 @@ end
 
 def kesha_mader(strings)
     strings.each do |dollar|
-    new_string =
+    word_array = word.split ""
+    word_array[2] = "$"
+    kesha << word_array.join
+  end
+  kesha
+end
 
