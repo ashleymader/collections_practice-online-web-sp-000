@@ -34,7 +34,7 @@ def kesha_maker(strings)
     strings.each do |dollar|
     dollar_array = dollar.split ""
     dollar_array[2] = "$"
-    kesha << word_array.join
+    kesha << dollar_array.join
   end
   kesha
 end
