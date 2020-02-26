@@ -25,8 +25,11 @@ def swap_elements_from_to(array, index, destination_index)
   return array
 end
   
-  
 def reverse_array(int)
   int.reverse 
 end
+
+def kesha_mader(strings)
+    strings.each do |dollar|
+      dollar = 
 
