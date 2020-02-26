@@ -29,7 +29,7 @@ def reverse_array(int)
   int.reverse 
 end
 
-def kesha_mader(strings)
+def kesha_maker(strings)
     kesha = []
     strings.each do |dollar|
     dollar_array = dollar.split ""
