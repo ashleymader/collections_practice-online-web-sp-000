@@ -30,9 +30,10 @@ def reverse_array(int)
 end
 
 def kesha_mader(strings)
+    kesha = []
     strings.each do |dollar|
-    word_array = word.split ""
-    word_array[2] = "$"
+    new_array = word.split ""
+    new_array[2] = "$"
     kesha << word_array.join
   end
   kesha
