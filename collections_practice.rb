@@ -31,5 +31,5 @@ end
 
 def kesha_mader(strings)
     strings.each do |dollar|
-    
+    new_string =
 
